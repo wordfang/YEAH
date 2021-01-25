@@ -35,7 +35,7 @@ client.on(`ready`, () => {
       });
       
 
-      client.user.setActivity(`Type: ${PREFIX}help | ${client.guilds.cache.size} Server`, { type: "PLAYING"});
+      client.user.setActivity(`Type: 🪐 at discord.io/caffeinee`, { type: "PLAYING"});
    
   
       }, (5000));
@@ -90,7 +90,7 @@ client.on(`message`, async (message) => {
     const embed = new Discord.MessageEmbed()
     .setColor("#c219d8")
     .setDescription(saymsg)
-    .setFooter("Musicium", client.user.displayAvatarURL())
+    .setFooter("© c a f f e i n e", client.user.displayAvatarURL())
     //delete the Command
     message.delete({timeout: 300})
     //send the Message
